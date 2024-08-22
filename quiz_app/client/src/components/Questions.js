@@ -1,8 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import data from '../database/data'
 
 export default function Questions() {
 
     const [checked, setChecked] = useState(undefined)
+    const question = data[0]
+
+    useEffect(()=> {
+        console.log(question)
+    })
 
     function onSelect() {
         // setChecked(true)
@@ -10,19 +16,23 @@ export default function Questions() {
     }
     return (
         <div className='questions'>
-            <h2 className='text-light'>Simple Questions</h2>
-            <ul>
-                <li>
+            <h2 className='text-light'>{question.question}</h2>
+            <ul key={question.id}>
+               {
+                question.options.map((q, i)=> (
+                    <li key={i}>
                     <input
                         type='radio'
-                        value={checked}
+                        value={false}
                         name='options'
-                        id='q1-option'
+                        id={`q${i}-options`}
                         onChange={onSelect()}
                     />
-                    <labe className='text-primary' htmlfor='q1-option'>option</labe>
-                    <div className='check checked'></div>
+                    <labe className='text-primary' htmlfor={`q${i}-options`}>{q}</labe>
+                    <div className='check'></div>
                 </li>
+                ))
+               }
             </ul>
         </div>
     )

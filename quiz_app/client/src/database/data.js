@@ -4,7 +4,7 @@ export default [
     {
         id: 1,
         question : "Which of the following blood test should be perform before a blood tranfusion?",
-        option: [
+        options: [
             'PTI',
             'BT',
             'CT',
@@ -14,7 +14,7 @@ export default [
     {
         id: 2,
         question : "The Standard fifth vital sign is.",
-        option: [
+        options: [
             'Pain',
             'Blood Pressure',
             'Pulse Oxymetry',
@@ -23,7 +23,7 @@ export default [
     {
         id: 3,
         question : "Sterile technique is used whenever",
-        option: [
+        options: [
             'Invasive procedure performed',
             'Terminal disinfection is performed',
             'Strict isolation is required',
@@ -32,7 +32,7 @@ export default [
     {
         id: 4,
         question : "What is the most accurate way to measure cort temperature?",
-        option: [
+        options: [
             'Otic',
             'Rectally',
             'Orally',
@@ -41,7 +41,7 @@ export default [
     {
         id: 5,
         question : "Normal Internal Body temperature is.",
-        option: [
+        options: [
             '98.6°F (37°C)',
             '98.8°F (37.7°C)',
             '96.0°F (35.6°C)',
@@ -50,7 +50,7 @@ export default [
     {
         id: 6,
         question : "What are the Korotkoff Sounds",
-        option: [
+        options: [
             'Sounds heard while measuring blood pressure',
             'Pathologist heart murmurs',
             'Functional heart murmurs',
@@ -59,7 +59,7 @@ export default [
     {
         id: 7,
         question : "All of the following are good source pf Vitamin A except?",
-        option: [
+        options: [
             'Eggs yolks',
             'White Potatoes',
             'Apricots',
@@ -69,7 +69,7 @@ export default [
     {
         id: 8,
         question : "Which of the following is not a sign & symptom of respiratory distress?",
-        option: [
+        options: [
             'Adoptions of a supine position by a patien',
             'Nail bed cyanosis',
             'An expiratory grunt in children',
@@ -79,7 +79,7 @@ export default [
     {
         id: 9,
         question : "Treatment of delirium tremers is",
-        option: [
+        options: [
             'Promethzine',
             'Diazepam',
             'Chlodixeproxide',
@@ -89,7 +89,7 @@ export default [
     {
         id: 10,
         question : "What is compression ventilation radio during CPR ?",
-        option: [
+        options: [
             '30:2',
             '33:2',
             '31:2',
@@ -99,7 +99,7 @@ export default [
     {
         id: 11,
         question : "Hypnotic drugs are used to treat?",
-        option: [
+        options: [
             'Psychosis',
             'Sleep disorder',
             'Narcolepsy',
@@ -108,7 +108,7 @@ export default [
     {
         id: 12,
         question : "The order is to infuse 1,000 ml of 0.9% salin over 8 hours how mush ml/hour to infuse",
-        option: [
+        options: [
             '120 ml/hour',
             '128 ml/hour',
             '125 ml/ hour',
