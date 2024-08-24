@@ -1,15 +1,15 @@
-.container ol li{
+.container ol li {
     font-size: 1.4em;
     color: #cecece;
 }
 
-.start{
+.start {
     display: flex;
     justify-content: center;
     padding-top: 2em;
 }
 
-.start .btn{
+.start .btn {
     padding: .2em 1.7em;
     border: none;
     border-radius: .1em;
@@ -19,13 +19,13 @@
     background-color: #faff5a;
 }
 
-#form{
+#form {
     display: flex;
     justify-content: center;
     margin-top: 4em;
 }
 
-#form .userid{
+#form .userid {
     padding: .7em 2em;
     width: 50%;
     border: none;

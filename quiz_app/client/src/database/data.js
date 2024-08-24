@@ -3,7 +3,7 @@ import Questions from "../components/Questions";
 export default [
     {
         id: 1,
-        question : "Which of the following blood test should be perform before a blood tranfusion?",
+        question: "Which of the following blood test should be perform before a blood tranfusion?",
         options: [
             'PTI',
             'BT',
@@ -13,7 +13,7 @@ export default [
     },
     {
         id: 2,
-        question : "The Standard fifth vital sign is.",
+        question: "The Standard fifth vital sign is.",
         options: [
             'Pain',
             'Blood Pressure',
@@ -22,7 +22,7 @@ export default [
     },
     {
         id: 3,
-        question : "Sterile technique is used whenever",
+        question: "Sterile technique is used whenever",
         options: [
             'Invasive procedure performed',
             'Terminal disinfection is performed',
@@ -31,7 +31,7 @@ export default [
     },
     {
         id: 4,
-        question : "What is the most accurate way to measure cort temperature?",
+        question: "What is the most accurate way to measure cort temperature?",
         options: [
             'Otic',
             'Rectally',
@@ -40,7 +40,7 @@ export default [
     },
     {
         id: 5,
-        question : "Normal Internal Body temperature is.",
+        question: "Normal Internal Body temperature is.",
         options: [
             '98.6°F (37°C)',
             '98.8°F (37.7°C)',
@@ -49,7 +49,7 @@ export default [
     },
     {
         id: 6,
-        question : "What are the Korotkoff Sounds",
+        question: "What are the Korotkoff Sounds",
         options: [
             'Sounds heard while measuring blood pressure',
             'Pathologist heart murmurs',
@@ -58,7 +58,7 @@ export default [
     },
     {
         id: 7,
-        question : "All of the following are good source pf Vitamin A except?",
+        question: "All of the following are good source pf Vitamin A except?",
         options: [
             'Eggs yolks',
             'White Potatoes',
@@ -68,7 +68,7 @@ export default [
     },
     {
         id: 8,
-        question : "Which of the following is not a sign & symptom of respiratory distress?",
+        question: "Which of the following is not a sign & symptom of respiratory distress?",
         options: [
             'Adoptions of a supine position by a patien',
             'Nail bed cyanosis',
@@ -78,27 +78,27 @@ export default [
     },
     {
         id: 9,
-        question : "Treatment of delirium tremers is",
+        question: "Treatment of delirium tremers is",
         options: [
             'Promethzine',
             'Diazepam',
             'Chlodixeproxide',
             'Respridom',
         ]
-    },   
+    },
     {
         id: 10,
-        question : "What is compression ventilation radio during CPR ?",
+        question: "What is compression ventilation radio during CPR ?",
         options: [
             '30:2',
             '33:2',
             '31:2',
             '35:2',
         ]
-    }, 
+    },
     {
         id: 11,
-        question : "Hypnotic drugs are used to treat?",
+        question: "Hypnotic drugs are used to treat?",
         options: [
             'Psychosis',
             'Sleep disorder',
@@ -107,7 +107,7 @@ export default [
     },
     {
         id: 12,
-        question : "The order is to infuse 1,000 ml of 0.9% salin over 8 hours how mush ml/hour to infuse",
+        question: "The order is to infuse 1,000 ml of 0.9% salin over 8 hours how mush ml/hour to infuse",
         options: [
             '120 ml/hour',
             '128 ml/hour',

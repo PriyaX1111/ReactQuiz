@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function ResultTable(){
-    return(
-        <div> 
+export default function ResultTable() {
+    return (
+        <div>
             <table>
                 <thead className="table-header">
                     <tr className="table-row">

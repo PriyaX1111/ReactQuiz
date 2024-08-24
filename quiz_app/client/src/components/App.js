@@ -9,23 +9,23 @@ import Result from './Result';
 /** React Routers */
 const router = createBrowserRouter([
   {
-    path : '/',
-    element : <Main></Main>
+    path: '/',
+    element: <Main></Main>
   },
   {
-    path : '/quiz',
-    element : <Quiz></Quiz>
+    path: '/quiz',
+    element: <Quiz></Quiz>
   },
   {
-    path : '/result',
-    element : <Result></Result>
+    path: '/result',
+    element: <Result></Result>
   },
 ])
 
 function App() {
   return (
     <>
-    <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </>
   );
 }
