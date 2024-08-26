@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Questions from './Questions'
 
 /** redux store import */
@@ -6,7 +6,10 @@ import { useSelector } from 'react-redux'
 
 export default function Quiz() {
 
-    useSelector()
+    const state = useSelector(state => state)
+    useEffect(() => {
+        // console.log(state)
+    })
 
     /**next btn event handler */
     function onNext() {
