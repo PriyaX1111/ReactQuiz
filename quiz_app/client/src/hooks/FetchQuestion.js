@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import data from "../database/data";
 import { useDispatch } from "react-redux";
 
@@ -8,7 +8,7 @@ import * as Action from '../redux/question_reducer'
 /** fetch question hook to fetch api data and set value to store */
 export const UseFetchQuestion = () => {
     const dispatch = useDispatch();
-    const [getData, setGetData] = useState({ isLoading: false, apiData: [], serverError: null })
+    const [getData, setGetData] = useState({ isLoading: false, apiData: [], serverError: null})
     useEffect(() => {
         setGetData(prev => ({ ...prev, isLoading: true }));
         /**async function fetch backend data */
