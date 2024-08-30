@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Questions from './Questions'
 import { MoveNextQuestion } from '../hooks/FetchQuestion';
+import { PushAnswer } from '../hooks/setResult';
 
 /** redux store import */
 import { useSelector, useDispatch } from 'react-redux'
@@ -11,7 +12,7 @@ export default function Quiz() {
     const { queue, trace } = useSelector(state => state.questions);
     const dispatch = useDispatch()
     useEffect(() => {
-        console.log(trace)
+        // console.log(state)
     })
 
     /**next btn event handler */
@@ -20,6 +21,7 @@ export default function Quiz() {
         if (trace < queue.length) {
             /** update the trace value by one using MoveNextAction */
             dispatch(MoveNextQuestion());
+            dispatch(PushAnswer(1))
         }
 
     }

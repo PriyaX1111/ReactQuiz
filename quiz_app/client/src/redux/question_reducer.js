@@ -14,9 +14,9 @@ export const questionReducer = createSlice({
             }
         },
         moveNextAction: (state) => {
-            return{
+            return {
                 ...state,
-                trace : state.trace+1
+                trace: state.trace + 1
             }
         }
     }

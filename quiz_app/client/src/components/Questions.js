@@ -17,7 +17,7 @@ export default function Questions() {
     })
 
     function onSelect() {
-        // console.log('radio button change')
+        console.log('radio button change')
     }
 
     if (isLoading) return <h3 className='text-light'>isLoading</h3>
@@ -34,10 +34,10 @@ export default function Questions() {
                                 type='radio'
                                 value={false}
                                 name='options'
-                                id={`q${i}-options`}
-                                onChange={onSelect()}
+                                id={`q${i}-option`}
+                                onChange={onSelect}
                             />
-                            <labe className='text-primary' htmlfor={`q${i}-options`}>{q}</labe>
+                            <labe className='text-primary' htmlfor={`q${i}-option`}>{q}</labe>
                             <div className='check'></div>
                         </li>
                     ))
